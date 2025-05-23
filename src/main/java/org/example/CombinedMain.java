@@ -53,17 +53,16 @@ public class CombinedMain {
                 case 1:
                     System.out.println("\n--- 電卓プログラム開始 ---");
                     Calculator.runCalculator();
-                    System.out.println("--- 電卓プログラム終了 ---\n");
+                    System.out.println("--- 電卓プログラム終了(メインメニューに戻ります) ---\n");
                     break;
                 case 2:
                     System.out.println("\n--- 携帯電話番号検証プログラム開始 ---");
                     MobileNumberValidator.runMobileValidator();
-                    System.out.println("--- 携帯電話番号検証プログラム終了 ---\n");
+                    System.out.println("--- 携帯電話番号検証プログラム終了(メインメニューに戻ります) ---\n");
                     break;
                 case 3:
                     System.out.println("\n--- 学生リストプログラム開始 ---");
                     StudentList.runStudentList();
-                    // StudentList has its own exit message, so no "終了" message here
                     System.out.println("--- 学生リストプログラム終了 (メインメニューに戻ります) ---\n");
                     break;
                 case 4:
